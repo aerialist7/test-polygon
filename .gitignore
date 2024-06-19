@@ -5,3 +5,7 @@
 # Gradle
 .gradle
 build/
+
+# Node.js
+node_modules/
+webpack.config.d/

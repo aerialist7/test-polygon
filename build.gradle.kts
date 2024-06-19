@@ -1,24 +1,12 @@
-import org.jetbrains.kotlin.gradle.dsl.KotlinJsCompile
-
 plugins {
     kotlin("multiplatform")
+    id("io.github.turansky.kfc.application")
     kotlin("plugin.js-plain-objects")
 }
 
 kotlin {
     js {
-        browser {
-            commonWebpackConfig {
-                outputFileName = "index.js"
-            }
-        }
         binaries.executable()
-    }
-}
-
-tasks.withType<KotlinJsCompile>().configureEach {
-    compilerOptions {
-        target.set("es2015")
     }
 }
 
