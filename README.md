@@ -1,8 +1,7 @@
 # test-polygon
 
-This sample reproduces a problem with broken build
-when using `-Xir-generate-inline-anonymous-functions` compiler flag with enabled `useEsClasses` compiler option.
+View Transitions in React router doesn't work in Kotlin.
 
-To reproduce the problem run `./gradlew build` and see the console output.
-
-Issue: https://youtrack.jetbrains.com/issue/KT-67355
+Here is working samples 
+  * in Vite – https://stackblitz.com/edit/github-yki13k?file=src%2Fmain.tsx,package.json
+  * in Webpack – https://codesandbox.io/p/sandbox/nameless-tdd-r3m74h?file=%2Fsrc%2Findex.js%3A5%2C8
